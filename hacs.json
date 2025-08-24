@@ -1,0 +1,12 @@
+{
+  "name": "TRV & Relay over MQTT",
+  "render_readme": true,
+  "domains": [
+    "climate",
+    "switch"
+  ],
+  "homeassistant": "2024.1.0",
+  "iot_class": "assumed_state",
+  "filename": "custom_components/trv_relay_mqtt",
+  "hide_default_branch": false
+}
