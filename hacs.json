@@ -7,6 +7,5 @@
   ],
   "homeassistant": "2024.1.0",
   "iot_class": "assumed_state",
-  "filename": "custom_components/trv_relay_mqtt",
-  "hide_default_branch": false
+  "filename": "custom_components/trv_relay_mqtt"
 }

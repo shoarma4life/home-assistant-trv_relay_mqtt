@@ -3,22 +3,26 @@
     "step": {
       "user": {
         "title": "TRV & Relay over MQTT",
-        "description": "Voeg een TRV (climate) of Relay (switch) toe dat je via MQTT aanstuurt.",
+        "description": "Voeg een TRV/Relay toe en (optioneel) centrale CV-instellingen.",
         "data": {
           "name": "Naam",
           "device_type": "Apparaattype (trv/relay)",
           "command_topic": "MQTT command topic",
           "state_topic": "MQTT state topic (relay)",
-          "current_temp_topic": "MQTT huidige temp topic (trv)",
-          "target_temp_state_topic": "MQTT target temp state topic (optioneel)",
+          "current_temp_topic": "Huidige temp topic (trv)",
+          "target_temp_state_topic": "Target temp state topic (optioneel)",
           "window_sensors": "Raam/deur sensoren (komma-gescheiden entity_id's)",
           "off_payload": "OFF-payload (bij open raam)",
           "resume_on_close": "Automatisch herstellen bij sluiten",
-          "simple_gui": "GUI-profiel: Optie 1 (geen boost)",
+          "simple_gui": "GUI: Optie 1 (geen boost)",
+          "relay_command_topics": "CV: Relay command topics (komma)",
+          "relay_off_delays": "CV: OFF-vertragingen (seconden, komma)",
+          "relay_on_payload": "CV: ON-payload",
+          "relay_off_payload": "CV: OFF-payload",
           "qos": "QoS",
           "retain": "Retain",
-          "min_temp": "Min. temperatuur (°C)",
-          "max_temp": "Max. temperatuur (°C)"
+          "min_temp": "Min. temp",
+          "max_temp": "Max. temp"
         }
       }
     }
